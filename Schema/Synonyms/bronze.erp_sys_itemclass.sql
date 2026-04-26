@@ -1,0 +1,1 @@
+CREATE SYNONYM [bronze].[erp_sys_itemclass] FOR [Retail].[dbo].[sys_itemclass]
