@@ -4,5 +4,5 @@ section INT PRIMARY KEY NOT NULL,
 itemclass INT  NOT NULL,
 a_name NVARCHAR(50) NOT NULL,
 l_name NVARCHAR(50) NOT NULL,
-last_update DATETIME NOT NULL
+last_update DATETIME DEFAULT GETDATE()
 )

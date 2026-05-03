@@ -4,5 +4,5 @@ CREATE TABLE gold.dim_item_sub_group(
   Itemgroup SMALLINT NOT NULL,
   A_name NVARCHAR(50) NOT NULL,
   L_name NVARCHAR(50) NOT NULL,
-  Last_update DATETIME NOT NULL
+last_update DATETIME DEFAULT GETDATE()
 ) 
